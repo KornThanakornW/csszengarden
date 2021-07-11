@@ -1,0 +1,149 @@
+$black: #000000;
+$dark-grey: #585b5f;
+$middle-grey: #abacb5;
+$light-grey: #e4e4e4;
+$navy: #1d3b3f;
+$font-weight: (
+    "thin": 100,
+    "light": 200,
+    "normal": 400,
+    "bold": 800,
+    "head": 900
+);
+
+body { 
+	font: Trebuchet MS;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: map-get($font-weight, thin);
+    color: rgb(185, 216, 216); 
+    background-image: url(/images/fog.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin: 5; 
+	padding: 0;
+    margin-left: 40px ;
+}
+
+header {    
+    background-color: #5a6c72;
+    
+}
+
+.intro:before {
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    margin: 0;
+    z-index: -1;
+    left:20px;
+    background-color: $navy;   
+}
+
+header h1{
+    font-size: 80px;
+    line-height: 0em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #cde4df;
+}
+
+header h2{
+    font-size: 25px;
+    line-height: 0%;
+    font-weight: map-get($font-weight, thin);
+    margin: 5px;
+    font-family: 'Trebuchet MS';
+    text-decoration-line: underline;
+    text-underline-position: under;
+    text-decoration-thickness: 0.2em;
+}
+
+h3 { 
+	font: italic bold;
+	letter-spacing: 1px; 
+    text-decoration-line: underline;
+	margin-bottom: 0; 
+	color: #45a29e;
+}
+   
+.summary  {
+    line-height: 2em;
+    margin: 5px;
+    color: #c5c6c7;;
+}
+
+
+
+main {
+    margin-left: 100px ;
+}
+
+.preamble {
+    background-color: rgba($color: #0b0c10, $alpha: 0.6);
+    margin-right: 35%;
+}
+
+.explanation {
+    background-color: rgba($color: #1f2833, $alpha: 0.6);
+    margin-left: 35%;
+}
+
+.participation {
+    background-color: rgba($color: #1c3334, $alpha: 0.6);
+    margin-right: 35%;
+}
+
+.benefits {
+    background-color: rgba($color: #0b0c10, $alpha: 0.6);
+    margin-left: 35%;
+}
+
+.requirements {
+    background-color: rgba($color: #1f2833, $alpha: 0.6);
+    margin-right: 35%;
+}
+
+footer a {
+    list-style-type:none;
+    padding:0px;
+    display:table;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display:inline;
+    text-decoration-style:solid;
+    color:rgb(255, 255, 255);
+    margin:0px 12px;
+}
+
+.design-selection {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+.design-archives {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+.zen-resources {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+.wrapper{ 
+    margin:0px ;
+    list-style-type:none ;
+    font-size:14px;
+    padding:0px 0px 10px 0px ; 
+    padding:0px 0px 5px 0px;
+    color:#CCC;
+    text-decoration:none;
+}
+
+.wrapper h3 {
+    color: #CCC;
+}
