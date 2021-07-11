@@ -3,7 +3,7 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-weight: 100;
   color: #b9d8d8;
-  background-image: url(/images/fog.jpg);
+  background-image: url("https://raw.githubusercontent.com/KornThanakornW/csszengarden/main/images/fog.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 5;
